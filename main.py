@@ -11,6 +11,13 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
+    now = time.strftime('%Y-%m-%d %H:%M:%S')
+    print(f"✅ Ping received from UptimeRobot at {now}")
+    try:
+        with open("uptime_log.txt", "a") as f:
+            f.write(f"Ping received at {now}\n")
+    except Exception as e:
+        print("❌ Failed to log ping:", e)
     return "InsightPilot Slack Bot is running!"
 
 def run_flask():
@@ -36,6 +43,7 @@ SLACK_WEBHOOK_URL = os.getenv("SLACK_WEBHOOK_URL")
 
 # Send Slack Message
 def send_insightpilot_alert():
+    print("🧪 Reem manual debug triggered")  # Force Git to see change 
     df_filtered = example_df[example_df['LLM Insight'].notnull()]
     if df_filtered.empty:
         print("ℹ️ No insights to send today.")
@@ -48,17 +56,22 @@ def send_insightpilot_alert():
             f"Status: `{row['Status']}` – Impact: *{row['Client Impact']}*\n"
             f"  🔹 LLM Insight: {row['LLM Insight']}\n\n")
 
-    response = requests.post(SLACK_WEBHOOK_URL, json={"text": message})
-    if response.status_code == 200:
-        print("✅ Slack digest sent.")
-    else:
-        print("❌ Slack error:", response.text)
+    try:
+        response = requests.post(SLACK_WEBHOOK_URL, json={"text": message})
+        if response.status_code == 200:
+            print("✅ Slack digest sent.")
+        else:
+            print("❌ Slack error:", response.text)
+    except Exception as e:
+        print("❌ Slack exception:", e)
 
 # Schedule alerts
-schedule.every().day.at("08:00").do(send_insightpilot_alert)
-schedule.every().day.at("16:00").do(send_insightpilot_alert)
+schedule.every().hour.do(send_insightpilot_alert)
 
 # Keep the schedule running
 while True:
-    schedule.run_pending()
+    try:
+        schedule.run_pending()
+    except Exception as e:
+        print("❌ Scheduler error:", e)
     time.sleep(60)
