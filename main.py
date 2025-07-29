@@ -43,27 +43,19 @@ SLACK_WEBHOOK_URL = os.getenv("SLACK_WEBHOOK_URL")
 
 # Send Slack Message
 def send_insightpilot_alert():
-    print("🧪 Reem manual debug triggered")  # Force Git to see change 
-    df_filtered = example_df[example_df['LLM Insight'].notnull()]
-    if df_filtered.empty:
-        print("ℹ️ No insights to send today.")
-        return
-
-    message = "*🧠 InsightPilot Daily Sprint Update*\n\n"
-    for _, row in df_filtered.iterrows():
-        message += (
-            f"• Task `{row['Task ID']}` – *{row['Days Late']} days late* – "
-            f"Status: `{row['Status']}` – Impact: *{row['Client Impact']}*\n"
-            f"  🔹 LLM Insight: {row['LLM Insight']}\n\n")
+    now = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    message = {
+        "text": f"📡 InsightPilot Digest – {now}\n• Status: ✅ Online\n• Ping received."
+    }
 
     try:
-        response = requests.post(SLACK_WEBHOOK_URL, json={"text": message})
+        response = requests.post(SLACK_WEBHOOK_URL, json=message)
         if response.status_code == 200:
-            print("✅ Slack digest sent.")
+            print(f"[{now}] ✅ Slack digest sent.")
         else:
-            print("❌ Slack error:", response.text)
+            print(f"[{now}] ❌ Slack POST failed. Status: {response.status_code}, Response: {response.text}")
     except Exception as e:
-        print("❌ Slack exception:", e)
+        print(f"[{now}] ❌ Exception occurred while sending Slack message: {e}")
 
 # Schedule alerts
 schedule.every().hour.do(send_insightpilot_alert)
