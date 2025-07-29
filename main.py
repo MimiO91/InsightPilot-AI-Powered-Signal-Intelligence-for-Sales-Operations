@@ -1,11 +1,15 @@
+import os
 import time
 import datetime
 import requests
 from flask import Flask
+from dotenv import load_dotenv
+
+# 🔐 Load .env file for secure webhook storage
+load_dotenv()
+SLACK_WEBHOOK_URL = os.getenv("SLACK_WEBHOOK_URL")
 
 app = Flask(__name__)
-
-SLACK_WEBHOOK_URL = "https://hooks.slack.com/services/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"
 
 def send_insightpilot_alert():
     now = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
@@ -40,17 +44,13 @@ def should_send_alert():
     """Check if it's time to send an alert"""
     global last_alert_time
     now = time.time()
-    
     if last_alert_time is None:
-        # First run - send immediately
         return True
-    
     return (now - last_alert_time) >= ALERT_INTERVAL
 
 def check_and_send_alert():
     """Check if we should send an alert and send it if needed"""
     global last_alert_time
-    
     if should_send_alert():
         send_insightpilot_alert()
         last_alert_time = time.time()
@@ -82,5 +82,4 @@ if __name__ == "__main__":
     last_alert_time = time.time()
     
     print("🌐 Starting Flask app...")
-    # Run Flask app
     app.run(host="0.0.0.0", port=8080, debug=False)
