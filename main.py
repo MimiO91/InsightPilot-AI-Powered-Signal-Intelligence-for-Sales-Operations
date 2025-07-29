@@ -17,7 +17,7 @@ def send_insightpilot_alert():
         df_tasks = pd.read_csv("project_tasks_with_insights.csv")
 
         # Only select rows that contain an LLM Insight
-        df_filtered = df_tasks[df_tasks['LLM Insight'].notnull()]
+        df_filtered = df_tasks[df_tasks['llm_insight'].notnull()]
 
         if df_filtered.empty:
             print("ℹ️ No insights to send today.")
@@ -27,9 +27,9 @@ def send_insightpilot_alert():
 
         for _, row in df_filtered.iterrows():
             message_text += (
-                f"• Task `{row['Task ID']}` is *{row['Days Late']} days late*\n"
-                f"  • Status: *{row['Status']}* | Impact: *{row['Client Impact']}*\n"
-                f"  • 🧠 LLM Insight: {row['LLM Insight']}\n\n"
+                f"• Task `{row['task_id']}` is *{row['days_late']} days late*\n"
+                f"  • Status: *{row['status']}* | Impact: *{row['client_impact']}*\n"
+                f"  • 🧠 LLM Insight: {row['llm_insight']}\n\n"
             )
 
         response = requests.post(SLACK_WEBHOOK_URL, json={"text": message_text})
