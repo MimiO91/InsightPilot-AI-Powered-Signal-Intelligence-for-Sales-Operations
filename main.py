@@ -2,6 +2,7 @@ import os
 import time
 import datetime
 import requests
+import pandas as pd
 from flask import Flask
 from dotenv import load_dotenv
 
@@ -12,19 +13,33 @@ SLACK_WEBHOOK_URL = os.getenv("SLACK_WEBHOOK_URL")
 app = Flask(__name__)
 
 def send_insightpilot_alert():
-    now = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    message = {
-        "text": f"📡 InsightPilot Digest – {now}\n• Status: ✅ Online\n• Ping received."
-    }
     try:
-        print(f"[{now}] 🔄 Sending Slack digest...")
-        response = requests.post(SLACK_WEBHOOK_URL, json=message, timeout=10)
+        df_tasks = pd.read_csv("project_tasks_with_insights.csv")
+
+        # Only select rows that contain an LLM Insight
+        df_filtered = df_tasks[df_tasks['LLM Insight'].notnull()]
+
+        if df_filtered.empty:
+            print("ℹ️ No insights to send today.")
+            return
+
+        message_text = "📢 *InsightPilot Daily Sprint Update*\n\n"
+
+        for _, row in df_filtered.iterrows():
+            message_text += (
+                f"• Task `{row['Task ID']}` is *{row['Days Late']} days late*\n"
+                f"  • Status: *{row['Status']}* | Impact: *{row['Client Impact']}*\n"
+                f"  • 🧠 LLM Insight: {row['LLM Insight']}\n\n"
+            )
+
+        response = requests.post(SLACK_WEBHOOK_URL, json={"text": message_text})
         if response.status_code == 200:
-            print(f"[{now}] ✅ Slack digest sent successfully!")
+            print("✅ Slack digest sent with real insights.")
         else:
-            print(f"[{now}] ❌ Slack POST failed: {response.status_code} - {response.text}")
+            print("❌ Failed to send Slack message:", response.text)
+
     except Exception as e:
-        print(f"[{now}] ❌ Slack exception: {e}")
+        print("❌ Error while sending insights:", e)
 
 @app.route("/")
 def home():
