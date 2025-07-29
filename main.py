@@ -3,6 +3,8 @@ import time
 import datetime
 import requests
 import pandas as pd
+import schedule
+import threading
 from flask import Flask
 from dotenv import load_dotenv
 
@@ -51,50 +53,31 @@ def test_slack():
     send_insightpilot_alert()
     return "Slack test sent! Check your logs."
 
-# Global variables for scheduling
-last_alert_time = None
-ALERT_INTERVAL = 3600  # 1 hour in seconds
-
-def should_send_alert():
-    """Check if it's time to send an alert"""
-    global last_alert_time
-    now = time.time()
-    if last_alert_time is None:
-        return True
-    return (now - last_alert_time) >= ALERT_INTERVAL
-
-def check_and_send_alert():
-    """Check if we should send an alert and send it if needed"""
-    global last_alert_time
-    if should_send_alert():
-        send_insightpilot_alert()
-        last_alert_time = time.time()
-        return True
-    return False
-
-@app.before_request
-def before_request():
-    """Check for scheduled alerts before each request"""
-    check_and_send_alert()
-
 @app.route("/force-alert")
 def force_alert():
     """Force send an alert immediately"""
-    global last_alert_time
     send_insightpilot_alert()
-    last_alert_time = time.time()
     return "Alert sent!"
+
+# 🔁 Daily Scheduler Thread for 9:00 AM France (07:00 UTC)
+def schedule_daily_alert():
+    schedule.every().day.at("07:00").do(send_insightpilot_alert)
+    while True:
+        schedule.run_pending()
+        time.sleep(60)
 
 if __name__ == "__main__":
     print("🎯 Starting InsightPilot...")
-    print("📅 Alert system will check every request and send hourly alerts")
-    print("🧪 Visit /force-alert to test Slack integration immediately")
-    print("🧪 Visit /test-slack for another test endpoint")
+    print("📅 Daily alert will send at 9:00 AM France time (07:00 UTC)")
+    print("🧪 Visit /force-alert or /test-slack to test manually")
     
-    # Send initial alert
+    # Start background scheduler
+    scheduler_thread = threading.Thread(target=schedule_daily_alert, daemon=True)
+    scheduler_thread.start()
+
+    # Initial run (optional)
     print("📡 Sending initial alert...")
     send_insightpilot_alert()
-    last_alert_time = time.time()
-    
+
     print("🌐 Starting Flask app...")
     app.run(host="0.0.0.0", port=8080, debug=False)
