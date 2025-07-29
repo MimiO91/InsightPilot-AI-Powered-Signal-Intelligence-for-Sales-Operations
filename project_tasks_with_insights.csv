@@ -1,0 +1,376 @@
+task_id,project_name,assignee,due_date,status,days_late,blocker,client_impact,last_updated,signal_type,llm_insight
+T001,Whiteboard One-To-One Web-Readiness,Danielle Taylor,2025-08-05,To Do,0,None,Low,2025-07-26,Healthy Task,
+T002,Transform E-Business Applications,Allen Robinson,2025-07-13,In Progress,13,Tech issue,High,2025-07-25,High Risk Task,"Here is the analysis:
+
+**Summary of the issue:**
+
+Task T002, assigned to Allen Robinson, is delayed by 13 days and is currently blocked due to a tech issue. The task is critical to the Transform E-Business Applications project, and its delay has a high impact on the client.
+
+**Recommended next step:**
+
+As the project manager, I recommend that you:
+
+1. Reach out to Allen Robinson to understand the nature and scope of the tech issue causing the delay. This will help identify the root cause of the problem and potential solutions.
+2. Collaborate with Allen to prioritize the issue and escalate it to the relevant technical team or vendor, if necessary, to resolve the issue as soon as possible.
+3. Work with Allen to develop a revised plan and timeline for completing the task, taking into account the current delay and any potential impact on the project schedule.
+4. Communicate the revised plan and timeline to the client, providing regular updates on the task's progress and any changes to the project schedule.
+
+By taking these steps, you can help to resolve the tech issue, minimize the impact on the client, and get the project back on track."
+T003,Deliver Proactive Schemas,Matthew Gardner,2025-07-02,To Do,24,None,Low,2025-07-23,Neutral Task,
+T004,Enhance Customized Applications,Sean Blake,2025-06-28,To Do,28,Awaiting client input,High,2025-07-25,High Risk Task,"**Summary of the issue:**
+
+Task T004, assigned to Sean Blake, is delayed by 28 days and is awaiting client input. The due date is 2025-06-28, and the client impact is high. This task is critical to the Enhance Customized Applications project, and the delay may have significant consequences on the overall project timeline and quality.
+
+**Recommended next step:**
+
+The project manager should:
+
+1. Reach out to the client to understand the reason for the delay in providing input and to negotiate a revised timeline for receiving the necessary information.
+2. Work with Sean Blake to prioritize the task and allocate sufficient time to complete the task once the client input is received.
+3. Monitor the task's progress closely and adjust the project schedule as needed to ensure that the task is completed on time and meets the client's requirements.
+
+Additionally, the project manager should consider having a contingency plan in place to mitigate the impact of the delay on the project timeline and quality. This may involve re-allocating resources or adjusting the project scope to ensure that the project stays on track."
+T005,Leverage Cutting-Edge Supply-Chains,Daniel Gallagher,2025-07-10,To Do,16,None,Low,2025-07-25,Neutral Task,
+T006,Transform E-Business Architectures,Ryan Munoz,2025-08-10,Blocked,0,None,Low,2025-07-25,Healthy Task,
+T007,Exploit Revolutionary Bandwidth,Valerie Gray,2025-07-24,Completed,0,None,Low,2025-07-26,Healthy Task,
+T008,Engage Distributed Functionalities,Shannon Ray,2025-07-06,Blocked,20,Dependency delay,High,2025-07-24,High Risk Task,"**Summary of the issue:**
+
+Task T008, assigned to Shannon Ray, is currently blocked due to a dependency delay, resulting in a 20-day delay. The task is critical to the Engage Distributed Functionalities project, and its delay has a high impact on the client. The due date for this task is 2025-07-06, and it has already missed its original deadline.
+
+**Recommended next step:**
+
+The project manager should immediately reach out to Shannon Ray and the dependent task's assignee to understand the root cause of the delay. The project manager should also request a revised timeline for the dependent task and negotiate with the assignee to prioritize the completion of the task.
+
+Additionally, the project manager should consider the following options:
+
+* If the dependent task is critical to the project, the project manager should consider re-sequencing the tasks or allocating additional resources to expedite the completion of the dependent task.
+* If the delay is due to unforeseen circumstances, the project manager should work with Shannon Ray to develop a contingency plan to mitigate the impact on the client.
+* The project manager should also update the project stakeholders, including the client, on the status of the task and provide a revised timeline for completion.
+
+By taking swift action, the project manager can minimize the impact of the delay, ensure timely completion of the task, and maintain a positive relationship with the client."
+T009,Unleash Innovative Paradigms,Patricia Galloway,2025-07-05,In Progress,21,Dependency delay,High,2025-07-26,High Risk Task,"**Summary of the issue:**
+
+Task T009, assigned to Patricia Galloway, is currently delayed by 21 days and is blocked due to a dependency delay. The task is critical to the project's success, and the client impact is high. The delay is affecting the overall project timeline and may have significant consequences if not addressed promptly.
+
+**Recommended next step:**
+
+The project manager should:
+
+1. Schedule an urgent meeting with Patricia Galloway to discuss the dependency delay and understand the root cause of the issue.
+2. Identify the dependent task(s) that are causing the delay and work with the assignee to prioritize and resequence the tasks to minimize the impact on the project timeline.
+3. Collaborate with the project team to develop a revised project schedule that takes into account the delayed task and ensures the project stays on track to meet the client's expectations.
+4. Communicate the revised project schedule and the plan to mitigate the impact of the delay to the client and stakeholders, and ensure they are informed of any changes or updates.
+
+By taking these steps, the project manager can address the dependency delay, minimize the impact on the project timeline, and ensure that the project stays on track to meet its objectives."
+T010,Iterate Bleeding-Edge Platforms,Jesse Flowers,2025-07-01,Blocked,25,Awaiting client input,High,2025-07-24,High Risk Task,"Here is the analysis:
+
+**Summary of the issue:**
+Task T010, assigned to Jesse Flowers, is currently blocked due to awaiting client input. The task has been delayed by 25 days and has a high client impact. This delay may cause a ripple effect on the overall project timeline and potentially impact the project's ability to meet its objectives.
+
+**Recommended next step:**
+The project manager should reach out to the client to understand the reason for the delay and obtain any necessary input or feedback. The project manager should also escalate the issue to the client's manager or a higher authority if necessary to ensure that the client input is received in a timely manner. Additionally, the project manager should work with Jesse Flowers to develop a revised plan and schedule to ensure that the task is completed as soon as possible and to minimize the impact on the overall project timeline.
+
+Specifically, the project manager should:
+
+* Contact the client to understand the reason for the delay and obtain any necessary input or feedback
+* Escalate the issue to the client's manager or a higher authority if necessary
+* Work with Jesse Flowers to develop a revised plan and schedule to ensure timely completion of the task
+* Monitor the task's progress and adjust the project plan as necessary to ensure that the project stays on track."
+T011,Leverage Out-Of-The-Box Convergence,Derek Zuniga,2025-07-18,Completed,0,None,Low,2025-07-26,Healthy Task,
+T012,Visualize Intuitive Metrics,Kimberly Sanchez,2025-07-25,To Do,1,Resource unavailable,Low,2025-07-22,Neutral Task,
+T013,Target Enterprise Niches,Margaret Hawkins DDS,2025-07-14,Completed,0,None,Low,2025-07-22,Healthy Task,
+T014,E-Enable Leading-Edge E-Services,Renee Morales,2025-07-08,To Do,18,Awaiting client input,High,2025-07-21,High Risk Task,"**Summary of the issue:**
+
+Task T014, assigned to Renee Morales, is currently delayed by 18 days and is blocked due to awaiting client input. The due date is 2025-07-08, and the client impact is high, indicating that the delay may have significant consequences for the project and the client.
+
+**Recommended next step:**
+
+The project manager should reach out to the client to understand the reason for the delay in providing input and negotiate a revised timeline for receiving the necessary information. It is essential to communicate the impact of the delay to the client and work together to find a solution that meets their needs while also ensuring the project stays on track.
+
+Specifically, the project manager should:
+
+* Contact the client to discuss the delay and the impact on the project
+* Request an updated timeline for receiving the necessary input
+* Work with Renee Morales to adjust the task schedule and plan accordingly
+* Monitor the task's progress and adjust the project schedule as needed to ensure timely completion
+
+By taking these steps, the project manager can mitigate the impact of the delay, ensure the project stays on track, and maintain a positive relationship with the client."
+T015,Optimize Killer Networks,Emily Rios,2025-07-10,Completed,0,None,Low,2025-07-26,Healthy Task,
+T016,Strategize Ubiquitous Eyeballs,David Hoffman,2025-07-10,To Do,16,Resource unavailable,High,2025-07-24,High Risk Task,"**Summary of the issue:**
+Task T016, assigned to David Hoffman, is currently delayed by 16 days and is blocked due to resource unavailability. The project manager should take immediate action to address this critical issue, as it has a high client impact and may jeopardize the overall project timeline.
+
+**Recommended next step:**
+The project manager should immediately reach out to David Hoffman to understand the root cause of the resource unavailability and the expected timeline for resolving the issue. The project manager should also explore alternative solutions, such as:
+
+1. Re-assigning the task to another team member with the necessary skills and resources.
+2. Negotiating with the client to adjust the deadline or scope of the task.
+3. Identifying a temporary solution to bridge the gap until the original resource becomes available.
+
+The project manager should also consider escalating the issue to the project sponsor or stakeholders to ensure that everyone is aware of the situation and the proposed mitigation strategies."
+T017,Morph Cutting-Edge Applications,Daniel Bright,2025-07-25,Completed,0,None,Low,2025-07-25,Healthy Task,
+T018,Deliver Rich Infrastructures,Shannon Hernandez,2025-07-19,Completed,0,None,Low,2025-07-25,Healthy Task,
+T019,Leverage Cutting-Edge Metrics,James Ferrell,2025-08-07,Completed,0,None,Low,2025-07-21,Healthy Task,
+T020,Mesh Dot-Com Schemas,Alexandra Le,2025-08-08,To Do,0,None,Low,2025-07-22,Healthy Task,
+T021,Innovate Real-Time Experiences,Edward Moore,2025-08-05,In Progress,0,None,Low,2025-07-22,Healthy Task,
+T022,Implement Back-End Mindshare,Katie Rodriguez,2025-07-11,In Progress,15,Resource unavailable,High,2025-07-23,High Risk Task,"**Summary of the issue:**
+
+Task T022, assigned to Katie Rodriguez, is currently delayed by 15 days and is blocked due to a lack of available resources. This task is critical to the Implement Back-End Mindshare project, and its delay has a high impact on the client. The due date for this task is July 11, 2025.
+
+**Recommended next step:**
+
+The project manager should immediately escalate the issue to the Resource Manager to request a reallocation of resources or identify a temporary solution to unblock Katie Rodriguez. The project manager should also reach out to Katie to understand the current workload and provide guidance on prioritizing tasks to ensure that the critical tasks are completed as soon as possible. Additionally, the project manager should consider revising the project schedule to reflect the new due date and communicate the updated timeline to the client."
+T023,Whiteboard Seamless Functionalities,Christina Brooks,2025-07-13,In Progress,13,Dependency delay,High,2025-07-26,High Risk Task,"**Summary of the issue:**
+
+Task T023, assigned to Christina Brooks, is delayed by 13 days and is currently blocked due to a dependency delay. The task is critical to the Whiteboard Seamless Functionalities project, and the client impact is high. The delay is affecting the overall project timeline and may impact the project's deliverables.
+
+**Recommended next step:**
+
+I recommend that the project manager, in collaboration with Christina Brooks, takes the following steps:
+
+1. Identify the specific dependency that is causing the delay and prioritize its completion.
+2. Communicate with the team and stakeholders about the delay and provide a revised timeline for the completion of Task T023.
+3. Work with Christina Brooks to break down the task into smaller, manageable chunks to ensure timely completion.
+4. Monitor the task's progress closely and provide regular updates to the project sponsor and stakeholders.
+
+Additionally, the project manager should also consider the following:
+
+* Assess the impact of the delay on the project's overall timeline and budget, and adjust the project plan accordingly.
+* Identify any potential risks or issues that may arise from the delay and develop mitigation strategies to minimize their impact.
+
+By taking these steps, the project manager can ensure that the task is completed as soon as possible, minimize the impact on the project, and maintain stakeholder confidence."
+T024,Leverage Clicks-And-Mortar Metrics,Alec Hickman,2025-07-10,To Do,16,Dependency delay,High,2025-07-23,High Risk Task,"**Summary of the issue:**
+
+Task T024, assigned to Alec Hickman, is currently delayed by 16 days and is blocked due to a dependency delay. This task is critical to the project's success, as it has a high client impact. The delay is likely to have a significant impact on the overall project timeline and may compromise the project's deliverables.
+
+**Recommended next step:**
+
+I recommend that the project manager:
+
+1. Immediately reach out to Alec Hickman to understand the root cause of the dependency delay and the expected resolution timeline.
+2. Identify alternative solutions or workarounds to mitigate the impact of the delay on the project timeline.
+3. Collaborate with Alec and the relevant stakeholders to prioritize and resequence tasks to ensure that the project stays on track.
+4. Communicate the updated project timeline and any changes to the client, ensuring transparency and managing their expectations.
+
+By taking these steps, the project manager can minimize the impact of the delay, ensure the project stays on track, and maintain a positive relationship with the client."
+T025,Matrix Extensible Action-Items,Shawn Arroyo,2025-07-13,To Do,13,Tech issue,High,2025-07-22,High Risk Task,"**Summary of the issue:**
+
+Task T025, assigned to Shawn Arroyo, is a critical task in the Matrix Extensible Action-Items project, with a high client impact. The task is currently delayed by 13 days, and the assigned due date is July 13, 2025. The blocker is a tech issue, which is preventing Shawn from making progress on the task.
+
+**Recommended next step:**
+
+Based on the analysis, I recommend that the project manager takes the following action:
+
+1. Escalate the tech issue to the technical team or the IT department to resolve the issue as soon as possible. This will help to unblock Shawn and enable them to resume work on the task.
+2. Schedule a meeting with Shawn to discuss the impact of the delay on the project timeline and the client's expectations. This meeting should also cover the plan to catch up on the task and ensure that it meets the required quality standards.
+3. Consider providing additional resources or support to Shawn to help them complete the task efficiently and effectively.
+
+By taking these steps, the project manager can mitigate the impact of the delay, ensure that the task is completed on time, and maintain the project's overall progress and quality."
+T026,Evolve Holistic Partnerships,Kim Martinez,2025-08-10,Completed,0,None,Low,2025-07-25,Healthy Task,
+T027,Repurpose Collaborative Schemas,Joseph Obrien,2025-08-06,Blocked,0,None,Low,2025-07-23,Healthy Task,
+T028,Architect 24/365 Content,Michael Brooks,2025-08-06,Blocked,0,None,Low,2025-07-25,Healthy Task,
+T029,Productize Customized Initiatives,Austin Smith,2025-07-12,In Progress,14,Tech issue,High,2025-07-21,High Risk Task,"**Summary of the issue:**
+
+Task T029, assigned to Austin Smith, is currently delayed by 14 days due to a tech issue. The task is critical to the Productize Customized Initiatives project, and its delay has a high impact on the client. The project manager needs to address this issue promptly to get the task back on track and meet the client's expectations.
+
+**Recommended next step:**
+
+The project manager should schedule an urgent meeting with Austin Smith to discuss the tech issue and identify the root cause. The meeting should aim to:
+
+1. Understand the nature of the tech issue and its impact on the task.
+2. Determine the estimated time required to resolve the issue.
+3. Explore potential solutions or workarounds to mitigate the delay.
+4. Develop a revised plan to complete the task, including a new due date and a contingency plan in case the issue takes longer to resolve than expected.
+
+The project manager should also consider involving the relevant technical stakeholders, such as the development team or IT support, to provide input and assistance in resolving the tech issue. By taking swift action, the project manager can minimize the delay and ensure the task is completed to meet the client's expectations."
+T030,Engage Bleeding-Edge Applications,Benjamin Welch,2025-07-31,Completed,0,None,Low,2025-07-21,Healthy Task,
+T031,Enhance Innovative Paradigms,Andrea Young,2025-08-02,Blocked,0,None,Low,2025-07-22,Healthy Task,
+T032,Repurpose Holistic E-Tailers,Miranda Khan,2025-07-21,Completed,0,None,Low,2025-07-25,Healthy Task,
+T033,Maximize Collaborative Action-Items,Rhonda Lee,2025-07-04,Blocked,22,Awaiting client input,High,2025-07-26,High Risk Task,"**Summary of the issue:**
+
+Task T033, assigned to Rhonda Lee, is currently blocked due to awaiting client input. The task was due on July 4, 2025, but has been delayed by 22 days, causing a high level of client impact.
+
+**Recommended next step:**
+
+The project manager should schedule a meeting with the client to discuss the necessary input and provide a clear understanding of the required information. This will help to ensure that the client is aware of the importance of providing the necessary input in a timely manner and can plan accordingly.
+
+Additionally, the project manager should also consider escalating the issue to the client's management or a higher authority if necessary, to ensure that the client takes the necessary action to provide the required input."
+T034,Transform User-Centric Convergence,John Daniel,2025-07-03,In Progress,23,Tech issue,High,2025-07-21,High Risk Task,"**Summary of the issue:**
+
+Task T034, assigned to John Daniel, is currently delayed by 23 days and is blocked due to a technical issue. The task is critical to the Transform User-Centric Convergence project, and its delay has a high impact on the client. The technical issue is preventing John from making progress on the task, which is essential to meeting the project's deadline.
+
+**Recommended next step:**
+
+I recommend that the project manager:
+
+1. Immediately reach out to John Daniel to understand the nature of the technical issue and the steps he has taken so far to resolve it.
+2. Escalate the issue to the technical team or relevant stakeholders to identify the root cause of the problem and provide a timeline for resolution.
+3. Work with John Daniel to develop a revised plan and timeline for completing the task, taking into account the additional time required to overcome the technical issue.
+4. Communicate the revised plan and timeline to the client, providing a clear explanation of the delay and the steps being taken to resolve the issue.
+
+By taking these steps, the project manager can ensure that the issue is addressed promptly, and the project stays on track to meet its deadline."
+T035,Innovate Mission-Critical Markets,Gerald Hensley,2025-07-23,To Do,3,Resource unavailable,Medium,2025-07-22,Neutral Task,
+T036,Incentivize Dynamic Solutions,Brenda White,2025-07-25,Completed,0,None,Low,2025-07-22,Healthy Task,
+T037,Target Interactive Partnerships,Scott Pierce,2025-06-26,To Do,30,None,Low,2025-07-24,Neutral Task,
+T038,Streamline Value-Added Infrastructures,Sarah Martin,2025-08-06,Completed,0,None,Low,2025-07-26,Healthy Task,
+T039,Synthesize Compelling E-Tailers,Stephanie Martin,2025-07-14,Blocked,12,Tech issue,High,2025-07-23,High Risk Task,"**Summary of the issue:**
+
+Task T039, assigned to Stephanie Martin, is currently blocked due to a tech issue, which has caused a delay of 12 days. The due date is 2025-07-14, and the client impact is considered high. This means that the delay may have significant consequences for the project and the client.
+
+**Recommended next step:**
+
+The project manager should immediately escalate the tech issue to the IT department and request a priority resolution. Additionally, the project manager should schedule a meeting with Stephanie Martin to discuss the impact of the delay on the project and the client, and to develop a plan to recover the lost time. The project manager should also consider providing Stephanie Martin with additional resources or support to help her overcome the tech issue and complete the task as soon as possible."
+T040,Implement Integrated Portals,Rachel Mitchell,2025-06-26,Completed,0,None,Low,2025-07-22,Healthy Task,
+T041,Scale Holistic Eyeballs,Daniel Brown,2025-07-07,To Do,19,Dependency delay,High,2025-07-21,High Risk Task,"**Summary of the issue:**
+
+Task T041, assigned to Daniel Brown, is a critical component of the Scale Holistic Eyeballs project. Despite being overdue by 19 days, it remains in the ""To Do"" status, indicating that it has not started yet. The primary blocker is a dependency delay, which suggests that another task or milestone is holding up the progress of T041. Given the high client impact, it is essential to address this issue promptly to avoid further delays and potential project risks.
+
+**Recommended next step:**
+
+The project manager should:
+
+1. Contact Daniel Brown to understand the root cause of the delay and the expected timeline for completing the task. This will help identify any potential issues or roadblocks that need to be addressed.
+2. Investigate the dependency delay and determine which task or milestone is causing the hold-up. This may require communication with other team members or stakeholders to identify the critical path and potential bottlenecks.
+3. Work with Daniel Brown and other relevant stakeholders to develop a revised plan and timeline for completing T041. This may involve adjusting dependencies, re-sequencing tasks, or providing additional resources to ensure timely completion.
+4. Regularly monitor the progress of T041 and the project as a whole to ensure that the revised plan is being executed and that the client's expectations are being met.
+
+By taking these steps, the project manager can help get T041 back on track, minimize the impact on the client, and ensure the overall success of the Scale Holistic Eyeballs project."
+T042,Extend Leading-Edge Vortals,Kevin Shaw,2025-07-28,In Progress,0,None,Low,2025-07-25,Healthy Task,
+T043,Iterate Granular Markets,Angela Lopez,2025-07-19,In Progress,7,None,Low,2025-07-22,Neutral Task,
+T044,Expedite Innovative Methodologies,Jennifer David,2025-06-26,Completed,0,None,Low,2025-07-23,Healthy Task,
+T045,Maximize Interactive Applications,Lisa Barnes,2025-06-27,To Do,29,Dependency delay,High,2025-07-24,High Risk Task,"**Summary of the issue:**
+Task T045, assigned to Lisa Barnes, is delayed by 29 days and is currently blocked due to a dependency delay. The task is critical to the Maximize Interactive Applications project, and its delay has a high impact on the client. The task is still in the ""To Do"" status, indicating that it has not been started yet.
+
+**Recommended next step:**
+The project manager should immediately escalate this issue to the relevant stakeholders, including Lisa Barnes and the team members responsible for the dependent tasks. The project manager should:
+
+1. Reach out to Lisa Barnes to understand the root cause of the dependency delay and the expected timeline for completion.
+2. Identify the dependent tasks and their current status to determine the extent of the delay.
+3. Work with the team to prioritize the dependent tasks and resequence the project plan if necessary.
+4. Communicate the updated timeline and plan to the client, providing a revised completion date for Task T045.
+5. Monitor the task's progress closely and provide regular updates to the client to ensure transparency and minimize the impact of the delay.
+
+By taking these steps, the project manager can mitigate the risk of further delays, ensure the project stays on track, and maintain a positive relationship with the client."
+T046,Benchmark Turn-Key Portals,Mike Allen,2025-07-11,To Do,15,Tech issue,High,2025-07-22,High Risk Task,"**Summary of the issue:**
+
+Task T046, assigned to Mike Allen, is currently delayed by 15 days and is blocked due to a technical issue. The due date is July 11, 2025, and the client impact is high. This delay is causing a significant disruption to the project timeline and may affect the overall project deliverables.
+
+**Recommended next step:**
+
+The project manager should:
+
+* Immediately reach out to Mike Allen to understand the nature and scope of the technical issue, and to determine the estimated time required to resolve it.
+* Collaborate with Mike Allen to develop a revised plan and timeline for completing the task, taking into account the current delay and the high client impact.
+* Escalate the issue to the technical team or relevant stakeholders if necessary, to ensure that the technical issue is addressed promptly and efficiently.
+* Communicate the revised plan and timeline to the client, providing a clear explanation of the delay and the expected resolution date.
+
+By taking these steps, the project manager can minimize the impact of the delay, ensure that the task is completed as soon as possible, and maintain a positive relationship with the client."
+T047,Strategize End-To-End Web Services,Joyce Hickman,2025-07-01,To Do,25,Resource unavailable,High,2025-07-26,High Risk Task,"Error: 429 - {""error"":{""message"":""Rate limit reached for model `llama3-8b-8192` in organization `org_01jkb3gt8wffya0q8w2m22dgg9` service tier `on_demand` on tokens per minute (TPM): Limit 6000, Used 6005, Requested 122. Please try again in 1.278s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing"",""type"":""tokens"",""code"":""rate_limit_exceeded""}}
+"
+T048,Re-Contextualize Intuitive Synergies,Zachary Ferrell,2025-07-30,In Progress,0,None,Low,2025-07-25,Healthy Task,
+T049,Optimize Killer Mindshare,Timothy Ibarra,2025-08-07,Blocked,0,None,Low,2025-07-22,Healthy Task,
+T050,Matrix Interactive Relationships,Jeffrey Daniels,2025-07-06,Completed,0,None,Low,2025-07-22,Healthy Task,
+T051,Monetize Value-Added Web Services,Elizabeth Alvarado,2025-08-03,Blocked,0,None,Low,2025-07-25,Healthy Task,
+T052,Matrix Global Portals,Brian Tran,2025-07-30,In Progress,0,None,Low,2025-07-21,Healthy Task,
+T053,Empower Front-End Metrics,Grant Watts,2025-07-15,Blocked,11,Dependency delay,High,2025-07-23,High Risk Task,"Error: 429 - {""error"":{""message"":""Rate limit reached for model `llama3-8b-8192` in organization `org_01jkb3gt8wffya0q8w2m22dgg9` service tier `on_demand` on tokens per minute (TPM): Limit 6000, Used 5994, Requested 119. Please try again in 1.127s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing"",""type"":""tokens"",""code"":""rate_limit_exceeded""}}
+"
+T054,Iterate Back-End Mindshare,Taylor Mathis Jr.,2025-07-29,Blocked,0,None,Low,2025-07-26,Healthy Task,
+T055,Brand Efficient Paradigms,Ray Walsh,2025-07-11,In Progress,15,Awaiting client input,High,2025-07-24,High Risk Task,"Error: 429 - {""error"":{""message"":""Rate limit reached for model `llama3-8b-8192` in organization `org_01jkb3gt8wffya0q8w2m22dgg9` service tier `on_demand` on tokens per minute (TPM): Limit 6000, Used 5982, Requested 120. Please try again in 1.02s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing"",""type"":""tokens"",""code"":""rate_limit_exceeded""}}
+"
+T056,Morph Granular Systems,Jessica Smith,2025-06-27,In Progress,29,None,Low,2025-07-25,Neutral Task,
+T057,Optimize B2C Users,Jacob Tran,2025-06-26,To Do,30,Awaiting client input,High,2025-07-25,High Risk Task,"Error: 429 - {""error"":{""message"":""Rate limit reached for model `llama3-8b-8192` in organization `org_01jkb3gt8wffya0q8w2m22dgg9` service tier `on_demand` on tokens per minute (TPM): Limit 6000, Used 5963, Requested 117. Please try again in 797ms. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing"",""type"":""tokens"",""code"":""rate_limit_exceeded""}}
+"
+T058,Brand End-To-End Paradigms,Steven Flynn,2025-06-30,To Do,26,Dependency delay,High,2025-07-26,High Risk Task,"Error: 429 - {""error"":{""message"":""Rate limit reached for model `llama3-8b-8192` in organization `org_01jkb3gt8wffya0q8w2m22dgg9` service tier `on_demand` on tokens per minute (TPM): Limit 6000, Used 5950, Requested 119. Please try again in 690ms. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing"",""type"":""tokens"",""code"":""rate_limit_exceeded""}}
+"
+T059,Cultivate Revolutionary Convergence,David Garcia,2025-07-28,In Progress,0,None,Low,2025-07-24,Healthy Task,
+T060,Revolutionize Transparent E-Business,Tammy Young,2025-08-07,Blocked,0,None,Low,2025-07-25,Healthy Task,
+T061,Leverage Virtual E-Markets,Norman Cook,2025-07-30,In Progress,0,None,Low,2025-07-21,Healthy Task,
+T062,Re-Contextualize Transparent Web Services,Rita Adams,2025-08-01,Blocked,0,None,Low,2025-07-25,Healthy Task,
+T063,Generate Sticky Architectures,Shannon Walker,2025-07-26,Blocked,0,None,Low,2025-07-25,Healthy Task,
+T064,Transition Ubiquitous Convergence,Robert Perez,2025-07-02,To Do,24,Resource unavailable,High,2025-07-24,High Risk Task,"Error: 429 - {""error"":{""message"":""Rate limit reached for model `llama3-8b-8192` in organization `org_01jkb3gt8wffya0q8w2m22dgg9` service tier `on_demand` on tokens per minute (TPM): Limit 6000, Used 5937, Requested 121. Please try again in 571ms. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing"",""type"":""tokens"",""code"":""rate_limit_exceeded""}}
+"
+T065,Utilize Dynamic Interfaces,Sean Rasmussen,2025-07-23,Blocked,3,Resource unavailable,High,2025-07-26,Blocked Task,"Error: 429 - {""error"":{""message"":""Rate limit reached for model `llama3-8b-8192` in organization `org_01jkb3gt8wffya0q8w2m22dgg9` service tier `on_demand` on tokens per minute (TPM): Limit 6000, Used 5925, Requested 120. Please try again in 440.999999ms. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing"",""type"":""tokens"",""code"":""rate_limit_exceeded""}}
+"
+T066,Empower Cross-Media Experiences,Meghan Anthony,2025-08-08,To Do,0,None,Low,2025-07-26,Healthy Task,
+T067,Facilitate Proactive Initiatives,Debbie Carpenter,2025-07-21,Completed,0,None,Low,2025-07-26,Healthy Task,
+T068,Morph Robust Platforms,Haley Hartman,2025-07-11,In Progress,15,Tech issue,High,2025-07-22,High Risk Task,"Error: 429 - {""error"":{""message"":""Rate limit reached for model `llama3-8b-8192` in organization `org_01jkb3gt8wffya0q8w2m22dgg9` service tier `on_demand` on tokens per minute (TPM): Limit 6000, Used 5914, Requested 118. Please try again in 310.999999ms. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing"",""type"":""tokens"",""code"":""rate_limit_exceeded""}}
+"
+T069,Brand One-To-One Architectures,Cheryl Williams,2025-07-24,In Progress,2,Resource unavailable,Low,2025-07-24,Neutral Task,
+T070,Brand Clicks-And-Mortar Deliverables,Kimberly Ball,2025-07-25,In Progress,1,Awaiting client input,Medium,2025-07-22,Neutral Task,
+T071,Extend 24/365 Relationships,Travis Mccall,2025-07-02,To Do,24,None,Low,2025-07-26,Neutral Task,
+T072,Re-Intermediate Turn-Key Web Services,Michelle Evans,2025-07-01,In Progress,25,Tech issue,High,2025-07-23,High Risk Task,"Error: 429 - {""error"":{""message"":""Rate limit reached for model `llama3-8b-8192` in organization `org_01jkb3gt8wffya0q8w2m22dgg9` service tier `on_demand` on tokens per minute (TPM): Limit 6000, Used 5899, Requested 122. Please try again in 205ms. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing"",""type"":""tokens"",""code"":""rate_limit_exceeded""}}
+"
+T073,Monetize Transparent Vortals,Edward Martinez,2025-07-27,Blocked,0,None,Low,2025-07-25,Healthy Task,
+T074,Deploy Enterprise Methodologies,Carrie Carroll,2025-07-21,To Do,5,Tech issue,Medium,2025-07-26,Neutral Task,
+T075,Strategize Clicks-And-Mortar Content,Jeffrey Carpenter,2025-07-20,Completed,0,None,Low,2025-07-23,Healthy Task,
+T076,Visualize World-Class Bandwidth,Michael Dixon,2025-07-14,Blocked,12,None,Low,2025-07-21,Neutral Task,
+T077,Generate Frictionless Web Services,Jose Schultz,2025-08-10,Blocked,0,None,Low,2025-07-25,Healthy Task,
+T078,Facilitate E-Business Action-Items,Courtney Gonzalez,2025-07-08,Completed,0,None,Low,2025-07-25,Healthy Task,
+T079,Utilize Revolutionary Action-Items,Miss Patricia Gibson,2025-06-29,To Do,27,Dependency delay,High,2025-07-26,High Risk Task,"Error: 429 - {""error"":{""message"":""Rate limit reached for model `llama3-8b-8192` in organization `org_01jkb3gt8wffya0q8w2m22dgg9` service tier `on_demand` on tokens per minute (TPM): Limit 6000, Used 5886, Requested 123. Please try again in 88ms. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing"",""type"":""tokens"",""code"":""rate_limit_exceeded""}}
+"
+T080,Matrix Dynamic Architectures,David Douglas Jr.,2025-06-29,Blocked,27,None,Low,2025-07-22,Neutral Task,
+T081,Engineer Sticky E-Commerce,Robert Dominguez,2025-07-06,To Do,20,None,Low,2025-07-26,Neutral Task,
+T082,Target Scalable Schemas,Ryan Bryant,2025-07-07,To Do,19,None,Low,2025-07-26,Neutral Task,
+T083,Exploit Plug-And-Play Web Services,Kristin Stewart,2025-08-08,In Progress,0,None,Low,2025-07-23,Healthy Task,
+T084,Engineer Visionary E-Business,Stephanie Simmons,2025-07-03,In Progress,23,None,Low,2025-07-22,Neutral Task,
+T085,Redefine Customized Communities,Karen Green,2025-06-28,To Do,28,Resource unavailable,High,2025-07-21,High Risk Task,"Here is the analysis:
+
+**Summary of the issue:**
+
+Task T085, assigned to Karen Green, is delayed by 28 days and is currently blocked due to a resource unavailability issue. The task is critical to the Redefine Customized Communities project, and its delay has a high impact on the client. The task remains in the ""To Do"" status, indicating that no work has been started yet.
+
+**Recommended next step:**
+
+The project manager should:
+
+1. Reach out to Karen Green to understand the specific resource requirements for Task T085 and the expected timeframe for availability.
+2. Identify alternative resources or temporary solutions to mitigate the delay, if possible.
+3. Negotiate with the client to discuss the impact of the delay and explore options for adjusting the deadline or scope, if necessary.
+4. Update the project schedule and communicate the changes to the team and stakeholders.
+
+By taking these steps, the project manager can work towards resolving the blocker, minimizing the impact on the client, and ensuring the project stays on track."
+T086,Incentivize Efficient Deliverables,Mr. Jeremiah Reeves,2025-08-02,Completed,0,None,Low,2025-07-24,Healthy Task,
+T087,Incentivize Real-Time Supply-Chains,Joshua Taylor,2025-07-09,Completed,0,None,Low,2025-07-25,Healthy Task,
+T088,Enhance Integrated Eyeballs,Amy Russell,2025-07-12,Blocked,14,Tech issue,High,2025-07-21,High Risk Task,"Error: 429 - {""error"":{""message"":""Rate limit reached for model `llama3-8b-8192` in organization `org_01jkb3gt8wffya0q8w2m22dgg9` service tier `on_demand` on tokens per minute (TPM): Limit 6000, Used 6119, Requested 118. Please try again in 2.376s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing"",""type"":""tokens"",""code"":""rate_limit_exceeded""}}
+"
+T089,Incubate Plug-And-Play E-Markets,Ross Price,2025-08-06,Completed,0,None,Low,2025-07-23,Healthy Task,
+T090,Revolutionize Vertical Networks,Aaron Bell,2025-07-16,To Do,10,Awaiting client input,High,2025-07-23,High Risk Task,"Error: 429 - {""error"":{""message"":""Rate limit reached for model `llama3-8b-8192` in organization `org_01jkb3gt8wffya0q8w2m22dgg9` service tier `on_demand` on tokens per minute (TPM): Limit 6000, Used 6105, Requested 121. Please try again in 2.26s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing"",""type"":""tokens"",""code"":""rate_limit_exceeded""}}
+"
+T091,Engineer Integrated E-Markets,Morgan Marsh,2025-08-04,To Do,0,None,Low,2025-07-26,Healthy Task,
+T092,Productize Magnetic Models,Jeffrey Johnson,2025-07-30,In Progress,0,None,Low,2025-07-22,Healthy Task,
+T093,Facilitate Wireless Communities,Tamara Hooper,2025-07-12,In Progress,14,Dependency delay,High,2025-07-26,High Risk Task,"Error: 429 - {""error"":{""message"":""Rate limit reached for model `llama3-8b-8192` in organization `org_01jkb3gt8wffya0q8w2m22dgg9` service tier `on_demand` on tokens per minute (TPM): Limit 6000, Used 6093, Requested 122. Please try again in 2.156s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing"",""type"":""tokens"",""code"":""rate_limit_exceeded""}}
+"
+T094,Incubate Proactive Interfaces,Mary Miller,2025-07-11,Completed,0,None,Low,2025-07-24,Healthy Task,
+T095,Brand Global Bandwidth,David Murphy,2025-07-06,Blocked,20,None,Low,2025-07-21,Neutral Task,
+T096,Target World-Class Supply-Chains,Jamie Walton,2025-07-15,To Do,11,None,Low,2025-07-24,Neutral Task,
+T097,E-Enable Next-Generation Portals,Julie Curry,2025-08-07,To Do,0,None,Low,2025-07-25,Healthy Task,
+T098,Streamline Cross-Media E-Services,Rachael Pearson,2025-07-12,To Do,14,Awaiting client input,High,2025-07-21,High Risk Task,"Error: 429 - {""error"":{""message"":""Rate limit reached for model `llama3-8b-8192` in organization `org_01jkb3gt8wffya0q8w2m22dgg9` service tier `on_demand` on tokens per minute (TPM): Limit 6000, Used 6075, Requested 122. Please try again in 1.976999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing"",""type"":""tokens"",""code"":""rate_limit_exceeded""}}
+"
+T099,Engineer Proactive Action-Items,Alex Hernandez,2025-07-31,In Progress,0,None,Low,2025-07-24,Healthy Task,
+T100,Enable Collaborative Web Services,Travis Marshall,2025-07-14,In Progress,12,Dependency delay,High,2025-07-25,High Risk Task,"Error: 429 - {""error"":{""message"":""Rate limit reached for model `llama3-8b-8192` in organization `org_01jkb3gt8wffya0q8w2m22dgg9` service tier `on_demand` on tokens per minute (TPM): Limit 6000, Used 6069, Requested 123. Please try again in 1.922s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing"",""type"":""tokens"",""code"":""rate_limit_exceeded""}}
+"
+T101,Morph Out-Of-The-Box Communities,Tracey Higgins,2025-08-08,Completed,0,None,Low,2025-07-22,Healthy Task,
+T102,Revolutionize Granular Content,Alexander Collins,2025-07-27,Completed,0,None,Low,2025-07-26,Healthy Task,
+T103,Innovate Enterprise Interfaces,Christina Vargas,2025-07-01,Blocked,25,Dependency delay,High,2025-07-26,High Risk Task,"Error: 429 - {""error"":{""message"":""Rate limit reached for model `llama3-8b-8192` in organization `org_01jkb3gt8wffya0q8w2m22dgg9` service tier `on_demand` on tokens per minute (TPM): Limit 6000, Used 6056, Requested 121. Please try again in 1.77s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing"",""type"":""tokens"",""code"":""rate_limit_exceeded""}}
+"
+T104,E-Enable Interactive Platforms,Elizabeth Sutton,2025-06-26,Completed,0,None,Low,2025-07-25,Healthy Task,
+T105,Exploit 24/7 Networks,Hannah Patterson,2025-08-05,Completed,0,None,Low,2025-07-25,Healthy Task,
+T106,Disintermediate Innovative Mindshare,Alexandria Fisher,2025-07-24,Blocked,2,None,Low,2025-07-26,Neutral Task,
+T107,Synthesize Sticky E-Commerce,Madison Poole,2025-07-03,To Do,23,Tech issue,High,2025-07-22,High Risk Task,"Error: 429 - {""error"":{""message"":""Rate limit reached for model `llama3-8b-8192` in organization `org_01jkb3gt8wffya0q8w2m22dgg9` service tier `on_demand` on tokens per minute (TPM): Limit 6000, Used 6041, Requested 118. Please try again in 1.595s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing"",""type"":""tokens"",""code"":""rate_limit_exceeded""}}
+"
+T108,Unleash B2C E-Commerce,Joseph Santos,2025-06-28,Completed,0,None,Low,2025-07-22,Healthy Task,
+T109,Re-Intermediate Compelling Bandwidth,Nicholas Adams,2025-07-31,In Progress,0,None,Low,2025-07-23,Healthy Task,
+T110,Iterate Interactive Infrastructures,Jerry Christensen,2025-07-04,To Do,22,Dependency delay,High,2025-07-24,High Risk Task,"Error: 429 - {""error"":{""message"":""Rate limit reached for model `llama3-8b-8192` in organization `org_01jkb3gt8wffya0q8w2m22dgg9` service tier `on_demand` on tokens per minute (TPM): Limit 6000, Used 6025, Requested 122. Please try again in 1.476999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing"",""type"":""tokens"",""code"":""rate_limit_exceeded""}}
+"
+T111,Maximize Enterprise Supply-Chains,Samuel White,2025-06-28,Completed,0,None,Low,2025-07-25,Healthy Task,
+T112,Architect Synergistic Portals,Spencer Haynes,2025-08-08,In Progress,0,None,Low,2025-07-21,Healthy Task,
+T113,Empower Value-Added Deliverables,Angela Cortez,2025-07-02,Completed,0,None,Low,2025-07-22,Healthy Task,
+T114,Synthesize Web-Enabled Info-Mediaries,Katherine Mcguire,2025-07-22,In Progress,4,Tech issue,Low,2025-07-25,Neutral Task,
+T115,Evolve Distributed E-Services,David Beck,2025-07-22,To Do,4,Tech issue,High,2025-07-24,Neutral Task,
+T116,Disintermediate Collaborative Schemas,Jessica Reese,2025-07-22,In Progress,4,Dependency delay,Low,2025-07-21,Neutral Task,
+T117,Facilitate Synergistic Bandwidth,David Martinez,2025-07-02,Blocked,24,Awaiting client input,High,2025-07-23,High Risk Task,"Error: 429 - {""error"":{""message"":""Rate limit reached for model `llama3-8b-8192` in organization `org_01jkb3gt8wffya0q8w2m22dgg9` service tier `on_demand` on tokens per minute (TPM): Limit 6000, Used 6013, Requested 122. Please try again in 1.359s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing"",""type"":""tokens"",""code"":""rate_limit_exceeded""}}
+"
+T118,Aggregate Turn-Key Initiatives,Tiffany Vaughn,2025-07-10,In Progress,16,Resource unavailable,High,2025-07-24,High Risk Task,"Error: 429 - {""error"":{""message"":""Rate limit reached for model `llama3-8b-8192` in organization `org_01jkb3gt8wffya0q8w2m22dgg9` service tier `on_demand` on tokens per minute (TPM): Limit 6000, Used 6001, Requested 123. Please try again in 1.246s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing"",""type"":""tokens"",""code"":""rate_limit_exceeded""}}
+"
+T119,Aggregate Killer Info-Mediaries,Kevin Wolf,2025-07-15,In Progress,11,Tech issue,High,2025-07-26,High Risk Task,"Error: 429 - {""error"":{""message"":""Rate limit reached for model `llama3-8b-8192` in organization `org_01jkb3gt8wffya0q8w2m22dgg9` service tier `on_demand` on tokens per minute (TPM): Limit 6000, Used 5990, Requested 119. Please try again in 1.084s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing"",""type"":""tokens"",""code"":""rate_limit_exceeded""}}
+"
+T120,Expedite Front-End Platforms,Elizabeth Ward,2025-08-07,In Progress,0,None,Low,2025-07-23,Healthy Task,
