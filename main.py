@@ -1,8 +1,6 @@
-import threading
 import time
 import datetime
 import requests
-import schedule  # Move this to the top
 from flask import Flask
 
 app = Flask(__name__)
@@ -34,51 +32,54 @@ def test_slack():
     send_insightpilot_alert()
     return "Slack test sent! Check your logs."
 
-def run_scheduler():
-    print("🚀 Scheduler thread starting...")
+# Global variables for scheduling
+last_alert_time = None
+ALERT_INTERVAL = 3600  # 1 hour in seconds
+
+def should_send_alert():
+    """Check if it's time to send an alert"""
+    global last_alert_time
+    now = time.time()
     
-    # Schedule the job
-    schedule.every().hour.do(send_insightpilot_alert)
+    if last_alert_time is None:
+        # First run - send immediately
+        return True
     
-    # Also schedule a test message in 30 seconds for immediate testing
-    schedule.every(30).seconds.do(send_insightpilot_alert).tag('test')
+    return (now - last_alert_time) >= ALERT_INTERVAL
+
+def check_and_send_alert():
+    """Check if we should send an alert and send it if needed"""
+    global last_alert_time
     
-    print("📅 Jobs scheduled:")
-    print("   - Every hour: send_insightpilot_alert")
-    print("   - Test in 30 seconds: send_insightpilot_alert")
-    
-    while True:
-        try:
-            pending_jobs = schedule.get_jobs()
-            if pending_jobs:
-                next_run = min(job.next_run for job in pending_jobs)
-                print(f"⏰ Next scheduled job at: {next_run}")
-            
-            schedule.run_pending()
-            
-            # Cancel the test job after it runs once
-            if schedule.get_jobs('test'):
-                test_jobs = schedule.get_jobs('test')
-                for job in test_jobs:
-                    if job.next_run <= datetime.datetime.now():
-                        schedule.cancel_job(job)
-                        print("🧪 Test job completed and removed")
-            
-            time.sleep(60)  # Check every minute
-        except Exception as e:
-            print(f"❌ Scheduler error: {e}")
-            time.sleep(60)
+    if should_send_alert():
+        send_insightpilot_alert()
+        last_alert_time = time.time()
+        return True
+    return False
+
+@app.before_request
+def before_request():
+    """Check for scheduled alerts before each request"""
+    check_and_send_alert()
+
+@app.route("/force-alert")
+def force_alert():
+    """Force send an alert immediately"""
+    global last_alert_time
+    send_insightpilot_alert()
+    last_alert_time = time.time()
+    return "Alert sent!"
 
 if __name__ == "__main__":
     print("🎯 Starting InsightPilot...")
+    print("📅 Alert system will check every request and send hourly alerts")
+    print("🧪 Visit /force-alert to test Slack integration immediately")
+    print("🧪 Visit /test-slack for another test endpoint")
     
-    # Start scheduler in background
-    print("🔧 Starting scheduler thread...")
-    scheduler_thread = threading.Thread(target=run_scheduler, daemon=True)
-    scheduler_thread.start()
-    
-    # Give the scheduler a moment to start
-    time.sleep(2)
+    # Send initial alert
+    print("📡 Sending initial alert...")
+    send_insightpilot_alert()
+    last_alert_time = time.time()
     
     print("🌐 Starting Flask app...")
     # Run Flask app
