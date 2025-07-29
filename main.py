@@ -5,7 +5,7 @@ from flask import Flask
 
 app = Flask(__name__)
 
-SLACK_WEBHOOK_URL = "https://hooks.slack.com/services/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"
+SLACK_WEBHOOK_URL = "https://hooks.slack.com/services/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"
 
 def send_insightpilot_alert():
     now = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
